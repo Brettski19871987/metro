@@ -21,8 +21,11 @@ All modules go through a transformer. A transformer is responsible for convertin
 
 ### Serialization
 
-As soon as all the modules have been transformed they will be serialized. A serializer combines the modules to generate one or multiple bundles. A bundle is literally a bundle of modules combined into a single JavaScript file.
+As soon as all the modules have been transformed they will be serialized. A serializer combines the modules to generate one or multiple bundles. A bundle! is literally a bundle of modules combined into a single JavaScript file.
 
 ## Modules
 
-Metro has been split out into multiple modules corresponding to every step in the flow, each with their own responsibility. This means that we have a resolver, transformer, and serializer. These modules can be swapped out depending on your needs.
+Metro has been split out into multiple modules ![Screenshot_2025-07-03-16-25-33-877_com google android gm](https://github.com/user-attachments/asse![Screenshot_2025-07-15-23-51-03-674_com android chrome](https://github.com/user-attachments/assets/34961af4-5c64-45db-b38e-b764fc2c0a63)
+ts/1dc4a95e-1ad6-4d9b-b5cd-6c0ff681d024)
+![Screenshot_2025-07-15-23-51-00-204_com android chrome](https://github.com/user-attachments/assets/3f8d6019-3479-44fd-8c52-969279f799df)
+corresponding to every step in the flow, each with their own responsib5ility. This means that we have a resolver, transformer, and serializer. These modules can be swapped out depending on your needs.
